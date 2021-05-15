@@ -20,16 +20,23 @@
 
       <div class="row">
         <div class="col-sm-3 border border-primary">Search for City
-            <form action="/action_page.php">
                 <input type="text" id="searchbox" size="20"><br><br>
-                <button type ="submit" id="search-btn" class="btn">Submit</button>
-              </form>
-              
+                <button id="search-btn" class="btn" onclick="inputSearch()">Search</button>
         </div>
         
 
         <div class="row col-sm-9 border border-secondary">
-          <div class="border border-primary">City</div>
+          <div class="border border-primary">
+            <h3 id='city_name'>Seattle and date</h3>
+            <ul> 
+                <li class="temp">Temp: 53.38</li>
+                <li class="wind">Wind: 4.56 mhp </li>
+                <li class="humid">Humidity: 71%</li>
+                <li class="uwindex">UV index: </li>
+            </ul>
+
+
+          </div>
           <div class="border border-primary">5 day Forecast</div>
 
         </div>
