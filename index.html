@@ -27,22 +27,29 @@
 
         <div class="row col-sm-9 border border-secondary">
           <div class="border border-primary">
-            <h3 id='city_name'>Seattle and date</h3>
-            <ul> 
-                <li class="temp">Temp: 53.38</li>
-                <li class="wind">Wind: 4.56 mhp </li>
-                <li class="humid">Humidity: 71%</li>
-                <li class="uwindex">UV index: </li>
-            </ul>
+            <h3><span id="date"></span></h3>
+            <p>temp: <span id="temp"></span></p>
+            <p>wind: <span id="wind"></span></p>
+            <p>humidity: <span id="humidity"></span></p>
+            <p>uw index: <span id="uv-index"></span></p>
+
+       
 
 
           </div>
-          <div class="border border-primary">5 day Forecast</div>
+          <div class="border border-primary">5 day Forecast
+            <p><span id="day1"></span></p>
+            <p><span id="day2"></span></p>
+            <p><span id="day3"></span></p>
+            <p><span id="day4"></span></p>
+            <p><span id="day5"></span></p>
+          </div>
+
 
         </div>
       </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="/weatherdashboard/Assets/script.js"></script>
   </body>
 </html>
