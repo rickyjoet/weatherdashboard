@@ -16,6 +16,8 @@ function inputSearch () {
         
         // to do - use list [0] for todays temp
 
+        console.log(data.city.cord);
+
         var weather = [data.list[0], data.list[2], data.list[10], data.list[18], data.list[26], data.list[34]]
         for (i= 0; i < weather.length; i++){
             // console.log(weather[i])
@@ -50,24 +52,8 @@ function inputSearch () {
         }
 
         
-        // var day1 = (data.list[2]);
-        // console.log(day1);
-        // document.getElementById('day1').innerText = day1
         
-        // console.log(data);
-        // var temp = data.main.temp;
-        // console.log(temp) 
-        // document.getElementById('temp').innerText = temp + " ℉";
-
-        // var wind = data.wind.speed;
-        // console.log(wind);
-        // document.getElementById('wind').innerText = wind + " mph";
-
-        // var humidity = data.main.humidity;
-        // console.log(humidity);
-        // document.getElementById('humidity').innerText = humidity + "%";
-        
-        // // api openweather app changed finding uvi
+        // api openweather app changed finding uvi
 
     });
 
